@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class Product(models.Model):
+class Att(models.Model):
     timingID = models.IntegerField()
     timeFor = models.CharField(max_length=20, null=False, blank=False)
     classesID = models.IntegerField()
